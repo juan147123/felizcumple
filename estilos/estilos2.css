@@ -1,0 +1,22 @@
+body {
+    background: url(http://3.bp.blogspot.com/-OwjVJYDTDVQ/VO6iuc_YCgI/AAAAAAADkJE/zi8Z0Ysv6Jw/s1600/Paisajes%2Bde%2Bdia%2Bde%2Blos%2Benamorados%2B31.gif);
+    background-size: 100%;
+    color: white;
+    font-family: cursive;
+    flex: auto;
+    min-width: 250px;
+}
+
+h1 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+@media screen and (max-whidth: 400px) {
+    .body {
+        width: 100%;
+    }
+    aside {
+        display: none;
+    }
+}

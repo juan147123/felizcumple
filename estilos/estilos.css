@@ -1,0 +1,23 @@
+body {
+    background: url(https://img.freepik.com/vector-gratis/concepto-letras-feliz-cumpleanos_23-2148499327.jpg?size=626&ext=jpg);
+    background-size: 100%;
+    flex: auto;
+    min-width: 250px;
+}
+
+h1 {
+    color: red;
+    text-shadow: rgb(161, 161, 161) 2px 2px 3px;
+    font-size: 35px;
+    font-family: "cursive";
+    margin-bottom: 15px;
+}
+
+@media screen and (max-whidth: 400px) {
+    .body {
+        width: 100%;
+    }
+    aside {
+        display: none;
+    }
+}
